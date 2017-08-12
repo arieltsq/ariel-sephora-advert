@@ -1,0 +1,46 @@
+body{
+  padding-top: 5.438em;
+}
+
+/*.container {
+    max-width: 46rem;
+}*/
+
+.hero-Image{
+height: 400px;
+    width: 1124.98px;
+}
+.hero-ImageContainer{
+  	/*height: 400px;*/
+    width: 1124.98px;
+}
+.footer-image{
+  height: 151px;
+  width: 1124.98px;
+}
+
+.row-box{
+  	height: 282px;
+  	width: 282px;
+  	border: 1px solid #CCCCCC;
+}
+.table-box{
+    width: 1124.98px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 38px;
+}
+.date-box{
+  margin-top: 51px;
+}
+@media only screen and (max-width: 480px) {
+
+  .hero-Image{
+    	height: 126px !important;
+      width: 353px !important;
+}
+
+.table-box{
+  width: 353px !important;
+}
+  }
