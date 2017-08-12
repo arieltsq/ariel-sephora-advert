@@ -3,44 +3,106 @@ body{
 }
 
 /*.container {
-    max-width: 46rem;
+max-width: 46rem;
 }*/
 
 .hero-Image{
-height: 400px;
-    width: 1124.98px;
+  height: 400px;
+  width: 1124.98px;
 }
 .hero-ImageContainer{
-  	/*height: 400px;*/
-    width: 1124.98px;
+  /*height: 400px;*/
+  width: 1124.98px;
 }
 .footer-image{
+  height: 151px;
+  width: 1124.98px;
+    margin-left: 15px;
+  background-image: url("./Assets/SEO_Text.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+.footer{
   height: 151px;
   width: 1124.98px;
 }
 
 .row-box{
-  	height: 282px;
-  	width: 282px;
-  	border: 1px solid #CCCCCC;
+  height: 282px;
+  width: 282px;
+  border: 1px solid #CCCCCC;
 }
 .table-box{
-    width: 1124.98px;
-    margin-top: 40px;
-    margin-left: 15px;
-    margin-bottom: 38px;
+  width: 1124.98px;
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-bottom: 38px;
 }
 .date-box{
   margin-top: 51px;
 }
+.box-6{
+  margin-top: 20px;
+}
+.box-7{
+  margin-top: 71px;
+  width: 242px;
+}
 @media only screen and (max-width: 480px) {
 
   .hero-Image{
-    	height: 126px !important;
-      width: 353px !important;
-}
-
-.table-box{
-  width: 353px !important;
-}
+    height: 126px !important;
+    width: 353px !important;
   }
+
+  .footer-image{
+    height: 151px;
+    width: 1124.98px;
+  }
+
+  .table-box{
+    width: 353px !important;
+  }
+  .date-box{
+    height: 112.98px;
+    width: 112.98px;
+    opacity: 0.35;
+    margin-top:  32.1px;
+  }
+  .row-box{
+    height: 177px;
+    width: 177px;
+  }
+  .box-6{
+    height: 150px;
+    width: 150px;
+  }
+  .box-7{
+    height: 112.98px;
+    width: 112.98px;
+  }
+  .hero-ImageContainer{
+    	width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .table-box{
+    margin-left: 0px;
+  }
+  .footer-image{
+	height: 105px;
+  width: 353px;;
+      margin-left: 0px;
+    background-image: url("./Assets/SEO_TextMobile.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+}
