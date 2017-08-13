@@ -6,33 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type"text/csS" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <!-- <script src="./Javascript/timer.js"></script> -->
 </head>
 <body>
   <p id="demo"></p>
   <!-- Modal -->
   <div class="modal fade bd-example-modal-lg" id="exampleModal"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-6 ">
-              <img src="./Assets/Popout.png" class="rounded mx-auto d-block">
-            </div>
-            <div class="col-sm-6 ">
-              <img src="./Assets/Popout.png" class="rounded mx-auto d-block">
-            </div>
-          </div>
 
-        </div>
+        <div class="modal-body">
+          <div class="container-fluid modal-bodyCotainer">
+            <div class="row">
+              <div class="col-sm-6 ">
+                <img src="./Assets/Popout.png" class="popOut-Image mx-auto d-block">
+              </div>
+              <div class="col-sm-6 ">
+                <div class="container center-block text-center modal-test modal-textContainer ">
+                  <div class="">
+                  <h1>Gift of the Day</h1>  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  <p class="modal-text">expires in</p>
+                  <h4><strong>Timer</strong></h4>
+                  <div class="modal-divider mx-auto "></div>
+                  <h6><strong>SUPERGOOP!</strong></h6>
+                  <p  class="modal-text"> Everyday Sunscreen with Cellular Response Technology SPF 50 (0.1 fl.oz./3ml)</p>
+                  <div class="modal-RedeemContainer">
+                  <h6><strong>Redeem with a minimum spend of $XXX.XXX</strong></h6>
+                  <p class="modal-text mx-auto">Inspired by the famous burlesque, Lola Frost, this is an intensely deep, plum red lipstick with a touch of pearl metallic finish.</p>
+                </div>
+                  <div class="input-group mx-auto">
+                    <input type="text" class="form-control text-center" placeholder="AC8F21" aria-label="AC8F21" value="AC8F21" disabled="true">
+                    <span class="input-group-btn">
+                      <button class="btn btn-secondary" type="button"><span>APPLY CODE</span></button>
+                    </span>
+                  </div>
+
+                  <p class="modal-footerText text-center mx-auto">*Receive a Lip + Cheek Pencil in Sin (2.5g) when you purchase a minimum of PHP2,000 [min amount of purchase] (excluding possible costs of delivery). Offer valid once online at sephora.ph only from 4 Dec 2016 (12am PHT) to 4 Dec 2016 (11:59pm PHT) while stocks last.</p>
+
+                </div>
+              </div>
+            </div>
 </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -60,8 +79,8 @@
       <!-- Second Column and Second row -->
       <div class="col-sm-6 ">
         <div class="row">
-  <div class="col-6  row-box"><img src="./Assets/lipstick.png" class="rounded mx-auto d-block date-box" alt="lipstick"></div>
-            <div class="col-6  row-box"><img src="./Assets/lipstick.png" class="rounded mx-auto d-block date-box" alt="lipstick"></div>
+          <div class="col-6  row-box"><img src="./Assets/lipstick.png" class="rounded mx-auto d-block date-box" alt="lipstick"></div>
+          <div class="col-6  row-box"><img src="./Assets/lipstick.png" class="rounded mx-auto d-block date-box" alt="lipstick"></div>
         </div>
       </div>
     </div>

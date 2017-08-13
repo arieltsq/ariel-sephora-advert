@@ -1,3 +1,4 @@
+
 body{
   padding-top: 5.438em;
 }
@@ -5,7 +6,35 @@ body{
 /*.container {
 max-width: 46rem;
 }*/
-
+/*p{
+  margin: 0px !important;
+}*/
+h1{
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 41px;
+  font-family: "Sephora Serif",serif;
+  margin: 0px !important;
+}
+h4{
+  font-family: Avalon,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+h6{
+  font-family: Avalon,sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 0px;
+}
+.margin25px{
+  margin-top:25px;
+}
+p {
+  margin-bottom: 5px;
+}
 .hero-Image{
   height: 400px;
   width: 1124.98px;
@@ -52,12 +81,108 @@ max-width: 46rem;
   margin-top: 71px;
   width: 242px;
 }
+/*Modal CSS*/
 .modal-content{
-border-radius: 0px;
+  border-radius: 0px;
+}
+.modal-lg{
+  max-width: 900px;
+}
+.modal-body{
+  padding: 0px;
+}
+.modal-bodyCotainer{
+  padding: 0px;
+  height: 450px;
+}
+.modal-textContainer{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 344px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+.close{
+  position: absolute;
+top: 8px;
+right: 22px;
+z-index: 50;
+font-size: 2.3em;
+font-weight: 100;
+}
+.modal-divider{
+  box-sizing: border-box;
+  height: 2px;
+  width: 344px;
+  border: 1px solid #CCCCCC;
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+.modal-text{
+  font-family: Avalon,sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17px;
+}
+.form-control{
+  font-family: Avalon,sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  	height: 40px;
+    width: 118.82px !important;
+    border-radius: 0px;
+    color: #000000;
+    	border: 1px solid #999999;
+}
+.input-group {
+  width: 270px;
+}
+
+.modal-footerText{
+  color: #999999;
+  font-family: Avalon,sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 14px;
+  margin-top: 30px;
+  margin-left: auto !important;
+      width: 351px;
+}
+.modal-H1{
+  margin-bottom: 10px;
+}
+
+.modal-RedeemContainer{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: white;
+    opacity: 1;
+}
+.input-group{
+  margin-bottom: 30px;
+}
+
+.btn{
+  height: 40px;
+  width: 151.39px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 0px;
 }
 
 @media only screen and (max-width: 480px) {
-
+body{
+  padding-top: 0px;
+}
   .hero-Image{
     height: 126px !important;
     width: 353px !important;
@@ -70,6 +195,7 @@ border-radius: 0px;
 
   .table-box{
     width: 353px !important;
+    margin-top: 11.25px;
   }
   .date-box{
     height: 112.98px;
@@ -109,4 +235,52 @@ border-radius: 0px;
     -o-background-size: contain;
     background-size: contain;
   }
+  /*Modal Mobile*/
+  .modal-lg{
+    width:  353px;
+    margin: 0 auto;
+  }
+
+  .modal-dialog {
+    width: 100%;
+    /*height: 850px;*/
+    padding: 12px;
+    margin: 0;
 }
+.modal-content {
+    height: 100%;
+    min-height: 100%;
+    height: auto;
+    border-radius: 0;
+}
+.modal-bodyCotainer{
+  height:100%;
+}
+  .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+  }
+  .popOut-Image{
+    height: 353px;
+    width: 100%;
+margin-left: 0px !important;
+margin-right: 0px !important;
+  }
+  .close {
+    position: absolute;
+    top: -353px;
+    right: 27px;
+  }
+  .modal-footerText{
+    width: 320px;
+  }
+  .modal-divider{
+    height: 2px;
+    width: 344px;
+  }
+  .modal-text{
+    width: 320px;
+  }
+
+}/*End for mobile devices*/
