@@ -2,13 +2,6 @@
 body{
   padding-top: 5.438em;
 }
-
-/*.container {
-max-width: 46rem;
-}*/
-/*p{
-  margin: 0px !important;
-}*/
 h1{
   font-size: 34px;
   font-weight: 300;
@@ -29,9 +22,6 @@ h6{
   line-height: 16px;
   margin-bottom: 0px;
 }
-.margin25px{
-  margin-top:25px;
-}
 p {
   margin-bottom: 5px;
 }
@@ -42,7 +32,9 @@ p {
 .hero-ImageContainer{
   /*height: 400px;*/
   width: 1124.98px;
+  margin-left: -14px;
 }
+
 .footer-image{
   height: 151px;
   width: 1124.98px;
@@ -54,6 +46,9 @@ p {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+}
+.hero-Mobilebox{
+  display: none;
 }
 .footer{
   height: 151px;
@@ -68,7 +63,7 @@ p {
 .table-box{
   width: 1124.98px;
   margin-top: 40px;
-  margin-left: 15px;
+  /*margin-left: 15px;*/
   margin-bottom: 38px;
 }
 .date-box{
@@ -185,7 +180,7 @@ body{
 }
   .hero-Image{
     height: 126px !important;
-    width: 353px !important;
+    width: 100% !important;
   }
 
   .footer-image{
@@ -194,7 +189,7 @@ body{
   }
 
   .table-box{
-    width: 353px !important;
+    width: 100% !important;
     margin-top: 11.25px;
   }
   .date-box{
@@ -222,10 +217,11 @@ body{
   }
   .table-box{
     margin-left: 0px;
+    margin-bottom: 26px;
   }
   .footer-image{
     height: 105px;
-    width: 353px;;
+    width: 100%;
     margin-left: 0px;
     background-image: url("./Assets/SEO_TextMobile.png");
     background-repeat: no-repeat;
@@ -282,5 +278,22 @@ margin-right: 0px !important;
   .modal-text{
     width: 320px;
   }
+/*GRIDS*/
+#table-boxLastRow{
+  display: none;
+}
+.hero-Mobilebox{
+height: 353px;
+	width: 100%;
+border: 1px solid #CCCCCC;
+margin-left: 0px;
+margin-bottom: 10px;
+margin-top: 10px;
+  display: block;
+}
+.hero-Mobilebox .box-6{
+  width: 343px;
+  height: auto;
 
+}
 }/*End for mobile devices*/
