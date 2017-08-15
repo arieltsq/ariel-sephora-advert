@@ -10,6 +10,6 @@ function applyCode() {
 
 
 $('#SurpriseModal').on('hidden.bs.modal', function (event) {
-  document.getElementById("testingBox").innerHTML= '<img src="./Assets/Popout.png" class="rounded mx-auto d-block hero-PopoutImage" alt="6" data-toggle="modal" data-target="#SurpriseModal">';
-    document.getElementById("SurpriseBox6").innerHTML= '<img src="./Assets/Popout.png" class="rounded mx-auto d-block hero-PopoutImage" alt="6" data-toggle="modal" data-target="#SurpriseModal">';
+  document.getElementById("testingBox").innerHTML= '<img src="./Assets/tarte.jpg" class="popOut-Image mx-auto d-block onFocus-tarte-box"><img src="./Assets/confetti.png" class="popOut-confetti-onChange mx-auto d-block">';
+    document.getElementById("SurpriseBox6").innerHTML='<img src="./Assets/tarte.jpg" class=" onFocus-tarte-box rounded mx-auto d-block tarte-box" alt="6"><img src="./Assets/confetti.png" class="popOut-confetti-onChange-xs mx-auto d-block">';
 })

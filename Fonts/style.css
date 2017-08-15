@@ -220,6 +220,7 @@ p {
   font-size: 13px;
   font-weight: 300;
   line-height: 17px;
+  width: 334px;
 }
 
 .form-control {
@@ -291,7 +292,40 @@ p {
   /*box-shadow:100px 0 0 #31708f inset;*/
   opacity: 0.8;
 }
+.popOut-confetti-onChange-xs{
+  width: 100%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  left: 0;
+  transform: translate(0%, 0%);
+}
 
+.onFocus-tarte-box{
+  opacity: 100;
+}
+
+.popOut-Container{
+  width: 450px;
+}
+
+.popOut-Image{
+  margin: 0 auto;
+  width: 290px;
+  margin-top: 80px;
+}
+.popOut-confetti{
+  width: 450px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    position: absolute;
+    top: 0;
+    /* left: 4%; */
+    height: 100%;
+    transform: translate(0%, 0%);
+}
 @media only screen and (max-width: 480px) {
   body {
     padding-top: 0px;
@@ -379,7 +413,9 @@ p {
     font-weight: 300;
     line-height: 41px;
   }
-
+  .modal-textContainer{
+    margin-top: 15px;
+  }
   .modal-bodyCotainer {
     height: 100%;
   }
@@ -393,17 +429,41 @@ p {
   #popOut-Container{
     width: 100%;
   }
+  #popOut-Container{
+    position: relative;
+    width: 353px;
+
+  }
+  .popOut-column{
+    width: 353px;
+    height:353px;
+  }
   .popOut-Image {
     height: 225.32px;
     width: 225.32px;
     margin: 0 auto;
+    margin-top: 62.59px;
   }
   .popOut-confetti {
-    height: 353px;
-    width: 100%;
+    /*height: 353px;*/
+    width: 352px;
     margin-left: 0px !important;
     margin-right: 0px !important;
+    position: absolute;
+    top: -28%;
+    left: -1px;
+    transform: translate(0%, 0%);
   }
+  .popOut-confetti-onChange{
+    width: 352px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    transform: translate(0%, 0%);
+  }
+
 
   .close {
     position: absolute;
@@ -411,14 +471,14 @@ p {
     right: 27px;
   }
   .modal-footerText {
-    width: 320px;
+    width: 304px;
   }
   .modal-divider {
     height: 2px;
     width: 344px;
   }
   .modal-text {
-    width: 320px;
+    width: 311px;
     margin-left: auto;
     margin-right: auto;
   }
