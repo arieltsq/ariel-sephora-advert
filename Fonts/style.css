@@ -1,3 +1,4 @@
+/*Font*/
 @font-face {
   font-family: 'Avalon';
   src: url('./Avalon-Book.otf');
@@ -18,7 +19,7 @@
   font-weight: 300;
   font-style: normal
 }
-
+/*  For desktop wider than 980px*/
 body {
   padding-top: 5.438em;
 }
@@ -70,7 +71,6 @@ margin: 0 auto;
 }
 .hero-Image {
   height: 400px;
-  width: 1124.98px;
 }
 
 .hero-ImageContainer {
@@ -78,46 +78,40 @@ margin: 0 auto;
   width: 1124.98px;
   padding: 0px;
 }
-
+/*footer start*/
 .footer-Container {
   height: 151px;
   width: 1124.98px;
-  /*margin-left: 15px;*/
-  /*background-image: url("./Assets/SEO_Text.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;*/
 }
 .footer-Container   .container-fluid , .footer-Container  .container-fluid .row .col-6, .footer-Container .container-fluid h4{
   padding-left: 0px;
   padding-right: 0px;
 }
 .footer-Container h4{
-  margin-left: -15px;
   margin-bottom: 19px;
 }
-
-.hero-Mobilebox {
-  display: none;
+.footer-Container .row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
-
 .footer {
   height: 151px;
   width: 1124.98px;
 }
-
+/*footer end*/
 .row-box {
   height: 282px;
   width: 282px;
   border: 1px solid #CCCCCC;
 }
 
+.hero-Mobilebox {
+  display: none;
+}
+
 .table-box {
   width: 1124.98px;
-  margin-top: 40px;
+  margin-top: 27px;
   /*margin-left: 15px;*/
   margin-bottom: 38px;
   padding: 15px !important;
@@ -156,16 +150,9 @@ margin: 0 auto;
   width: 100%;
 }
 
-
-.box-7 {
-  margin-top: 71px;
-  width: 242px;
-}
-
 #SurpriseBox6 {
   padding: 0;
 }
-
 
 #SurpriseBox6-Container{
   position: relative;
@@ -371,10 +358,7 @@ margin: 0 auto;
   .footer-Container h4 {
     margin-left: 0px;
   }
-  .footer-Container .row {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+
   #SurpriseBox6-Container{
     width: 100%;
   }
@@ -521,14 +505,14 @@ margin: 0 auto;
       margin-left: 0px;
       margin-bottom: 0px;
       width: 353px;
-      margin-top: 0px;
+      margin-top: -6px;
     }
     .footer-Container{
       width: 353px;
     }
-    .container .footer-Container{
+    /*.container .footer-Container{
       padding: 11px;
-    }
+    }*/
     .footer-Container .container-fluid .row .col-6 p {
       margin-left: 0px;
       font-size: 11px;
@@ -544,13 +528,11 @@ margin: 0 auto;
       font-size: 11px;
       font-weight: bold;
       line-height: 15px;
-      margin-left: -15px;
     }
+
     /*Modal Mobile*/
 
     .modal-dialog {
-
-      /*height: 850px;*/
       padding: 12px;
       margin: 0 auto;
     }
@@ -601,7 +583,7 @@ margin: 0 auto;
       transform: translate(0%, 0%);
     }
     .popOut-confetti-onChange{
-      width: 352px;
+      width: 345px;
       margin-left: 0px !important;
       margin-right: 0px !important;
       position: absolute;
@@ -638,7 +620,7 @@ margin: 0 auto;
       border: 1px solid #CCCCCC;
       margin-left: 0px;
       margin-bottom: 0px;
-      margin-top: 10px;
+      margin-top: 11.25px;
       display: block;
     }
     .hero-Mobilebox #SurpriseBox6-Container .day6-Font{
@@ -648,11 +630,11 @@ margin: 0 auto;
       padding: 0px
     }
     .hero-Mobilebox #SurpriseBox6-Container  .img-snowflakes {
-      width: 340px;
+      width: 353px;
       height: 353px;
       position: absolute;
       top: -90%;
-      left: 54%;
+      left: 51%;
       transform: translate(-50%, 0%);
     }
 
@@ -663,10 +645,10 @@ margin: 0 auto;
       padding: 0px
     }
     .img-snowflakes {
-      width: 171px;
+      width: 184px;
       position: absolute;
-      top: -43px;
-      left: 11px;
+      top: -50px;
+      left: -2px;
       transform: translate(0%, 0%);
     }
     .tarte-box{
