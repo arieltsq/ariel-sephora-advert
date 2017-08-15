@@ -1,7 +1,7 @@
 ## Sephora - Advert Calendar
 ###### • Front end test from Invision prototype
 ###### • Build in Plain HTML, CSS, Javascript, JQuery and Bootstrap
-
+Here's the link to view the build protoype : [Sephora-Advert-Calendar]('https://arieltsq.github.io/ariel-sephora-advert')
 #### File Structure
 ```
 +-- Assets
@@ -23,7 +23,7 @@
 Food for thought
 ---------
 
-Part of my initial thought process :
+######  Part of my initial thought process :
 
 I started out by asking myself,  how I would want to structure the grids around with the bootstrap grids.  Thus I started to draw out the wireframes for it.
 
@@ -35,10 +35,15 @@ Wireframe for desktop:
 Wireframe for mobile:
 ![Mobile Wireframes](https://github.com/arieltsq/ariel-sephora-advert/images/mobile-wireframe.jpg "Wireframe for mobile")
 
-During the process of doing it :
+######  During the process of doing it :
 
 • Created few branches in the process of doing it, so that master branch is left untouch until css-bugs are resolved.
 
 • Created to-do list of things (functions/view portions) during the process of building this so as to pace myself out
 
-Here's the link to view the build protoype : [Sephora-Advert-Calendar]('https://arieltsq.github.io/ariel-sephora-advert')
+
+
+###### Things that could have been done better
+* Refractor the CSS better. (It could have been neater using SASS)
+* Positioning the Images overlay to be more smooth
+* Have better naming conventions for CSS classes.
