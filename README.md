@@ -1,7 +1,7 @@
 ## Sephora - Advert Calendar
 ###### • Front end test from Invision prototype
 ###### • Build in Plain HTML, CSS, Javascript, JQuery and Bootstrap
-Here's the link to view the build protoype : [Sephora-Advert-Calendar]('https://arieltsq.github.io/ariel-sephora-advert')
+Here's the link to view the build protoype : [Sephora-Advert-Calendar]('https://arieltsq.github.io/ariel-sephora-advert/')
 #### File Structure
 ```
 +-- Assets
@@ -29,11 +29,11 @@ I started out by asking myself,  how I would want to structure the grids around 
 
 _Disclaimer : Wireframes are more for the thought process and may not be drawn accurate to assets or scales._
 
-Wireframe for desktop:
-![Desktop Wireframes](https://github.com/arieltsq/ariel-sephora-advert/images/desktop-wireframe.jpg "Wireframe for desktop")
+Wireframe for **Desktop**:
+![Desktop Wireframes](https://raw.githubusercontent.com/arieltsq/ariel-sephora-advert/master/Images/desktop-wireframe.jpg)
 
-Wireframe for mobile:
-![Mobile Wireframes](https://github.com/arieltsq/ariel-sephora-advert/images/mobile-wireframe.jpg "Wireframe for mobile")
+Wireframe for **Mobile**:
+![Mobile Wireframes](https://raw.githubusercontent.com/arieltsq/ariel-sephora-advert/master/Images/mobile-wireframe.jpg)
 
 ######  During the process of doing it :
 
