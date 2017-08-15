@@ -10,7 +10,7 @@ function calculateHoursMinuteSecondleft(){
 
   //display
 
-  document.getElementById("timer").innerHTML = hoursleft+"h "+ " : " + minutesleft+"m "+ " : "+secondsleft+"s";
+  document.getElementById("Timer").innerHTML = hoursleft+"h "+ " : " + minutesleft+"m "+ " : "+secondsleft+"s";
 }
 calculateHoursMinuteSecondleft();
 setInterval(calculateHoursMinuteSecondleft, 1000);
