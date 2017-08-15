@@ -60,7 +60,14 @@ p {
   font-size: 13px;
   font-weight: 300;
 }
-
+/*.bodyContainer{
+width: 1124.98px;
+margin: 0 auto;
+}*/
+.bodyContainer .container{
+  padding: 0px;
+  max-width: 1124.9px;
+}
 .hero-Image {
   height: 400px;
   width: 1124.98px;
@@ -69,7 +76,7 @@ p {
 .hero-ImageContainer {
   /*height: 400px;*/
   width: 1124.98px;
-  margin-left: -14px;
+  padding: 0px;
 }
 
 .footer-Container {
@@ -113,6 +120,7 @@ p {
   margin-top: 40px;
   /*margin-left: 15px;*/
   margin-bottom: 38px;
+  padding: 15px !important;
 }
 
 .date-box {
@@ -318,87 +326,64 @@ p {
 }
 .popOut-confetti{
   width: 450px;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    position: absolute;
-    top: 0;
-    /* left: 4%; */
-    height: 100%;
-    transform: translate(0%, 0%);
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  position: absolute;
+  top: 0;
+  /* left: 4%; */
+  height: 100%;
+  transform: translate(0%, 0%);
 }
-@media only screen and (max-width: 480px) {
-  body {
-    padding-top: 0px;
-  }
-  .bodyContainer{
-    width: 375px;
-    margin: 0 auto;
-    padding: 11px;
-  }
-  .bodyContainer .container{
-
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+@media screen and (max-width: 980px) {
 
   .hero-Image {
-    height: 126px !important;
-    width: 100% !important;
+    height: 100%;
+    width: 600px;
   }
-  .hero-ImageContainer {
-    width: 353px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
+  .bodyContainer{
+    width: 600px;
+    margin: 0 auto;
   }
-  .footer-Container {
-    height: 151px;
-    width: 1124.98px;
+  .bodyContainer .container {
+    padding: 0px;
+    max-width: 600px;
   }
-  .date-box {
-    height: 112.98px;
-    width: 100%;
-    opacity: 0.35;
-    margin-top: 47px;
-    line-height: 84px;
+  .tarte-box {
+    height: 60px;
+    width: 60px;
+    margin-top: 45px;
+  }
+  .row-box{
+    height: 150px;
+    /* width: 100%; */
+  }
+  .table-box{
+    margin-top: 6px;
+  }
+  .date-box{
     font-size: 70px;
-    padding: 0px
+    padding: 0px;
   }
-  .row-box {
-    height: 177px;
+  .day6-Font {
+    font-size: 70px;
+    padding: 0px;
+  }
+  .footer-Container h4 {
+    margin-left: 0px;
+  }
+  .footer-Container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #SurpriseBox6-Container{
     width: 100%;
-    padding: 0;
   }
-  .container .table-box {
-    padding: 11px;
-  }
-  .table-box {
-    margin-left: 0px;
-    margin-bottom: 26px;
-    width: 353px;
-    margin-top: 11.25px;
-  }
-  .footer-Container{
-    width: 353px;
-  }
-  .container .footer-Container{
-    padding: 11px;
-  }
-  .footer-Container .container-fluid .row .col-6 p {
-    margin-left: 0px;
-    font-size: 11px;
-    font-weight: 300;
-    line-height: 15px;
-    text-align: justify;
-    width: 353px;
-  }
-  .footer-Container .disappear {
-    display: none;
-  }
-  .footer-Container h4{
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 15px;
+  .img-snowflakes{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 7px;
+    transform: translate(0%, 0%);
   }
   /*Modal Mobile*/
 
@@ -407,6 +392,9 @@ p {
     /*height: 850px;*/
     padding: 12px;
     margin: 0 auto;
+  }
+  .modal-lg{
+
   }
   h1{
     font-size: 34px;
@@ -423,7 +411,7 @@ p {
     height: auto;
     min-height: 100%;
     border-radius: 0;
-    width: 353px;
+    width: 100%;
     margin: 0 auto;
   }
   #popOut-Container{
@@ -431,7 +419,7 @@ p {
   }
   #popOut-Container{
     position: relative;
-    width: 353px;
+    width: 100%;
 
   }
   .popOut-column{
@@ -442,15 +430,15 @@ p {
     height: 225.32px;
     width: 225.32px;
     margin: 0 auto;
-    margin-top: 62.59px;
+    margin-top: 115.84px;
   }
   .popOut-confetti {
-    /*height: 353px;*/
-    width: 352px;
+    height: 457px;
+    width: 410px;
     margin-left: 0px !important;
     margin-right: 0px !important;
     position: absolute;
-    top: -28%;
+    top: -115.84px;
     left: -1px;
     transform: translate(0%, 0%);
   }
@@ -467,8 +455,8 @@ p {
 
   .close {
     position: absolute;
-    top: -353px;
-    right: 27px;
+    top: 0;
+    right: 19px;
   }
   .modal-footerText {
     width: 304px;
@@ -482,56 +470,211 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-  /*GRIDS*/
-  #table-boxLastRow {
-    display: none;
-  }
-  .hero-Mobilebox {
-    height: 353px;
-    width: 100%;
-    border: 1px solid #CCCCCC;
-    margin-left: 0px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    display: block;
-  }
-  .hero-Mobilebox #SurpriseBox6-Container .day6-Font{
-    margin-top: 125.08px;
-    line-height: 84px;
-    font-size: 150px;
-    padding: 0px
-  }
-  .hero-Mobilebox #SurpriseBox6-Container  .img-snowflakes {
-    width: 340px;
-    height: 353px;
-    position: absolute;
-    top: -90%;
-    left: 54%;
-    transform: translate(-50%, 0%);
-  }
-  #SurpriseBox6-Container{
-    width:100%;
-    /*margin-left: 8px;*/
-  }
-  .day6-Font{
-    margin-top: 47px;
-    line-height: 84px;
-    font-size: 70px;
-    padding: 0px
-  }
-  .img-snowflakes {
-    width: 171px;
-    position: absolute;
-    top: -43px;
-    left: 11px;
-    transform: translate(0%, 0%);
-  }
-  .tarte-box{
-    height: 112.98px;
-    width: 112.98px;
-    margin-top: 31.01px;
-  }
-}
+  }/*end of 980 viewport*/
+  @media only screen and (max-width: 480px)   {
+    body {
+      padding-top: 0px;
+    }
+    .bodyContainer{
+      width: 375px;
+      margin: 0 auto;
+      padding: 11px;
+    }
+    .bodyContainer .container{
+
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .hero-Image {
+      height: 126px !important;
+      width: 100% !important;
+    }
+    .hero-ImageContainer {
+      width: 353px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+    }
+    .footer-Container {
+      height: 151px;
+      width: 1124.98px;
+    }
+    .date-box {
+      height: 112.98px;
+      width: 100%;
+      opacity: 0.35;
+      margin-top: 47px;
+      line-height: 84px;
+      font-size: 70px;
+      padding: 0px
+    }
+    .row-box {
+      height: 177px;
+      width: 100%;
+      padding: 0;
+    }
+    .container .table-box {
+      padding: 11px;
+    }
+    .table-box {
+      margin-left: 0px;
+      margin-bottom: 0px;
+      width: 353px;
+      margin-top: 0px;
+    }
+    .footer-Container{
+      width: 353px;
+    }
+    .container .footer-Container{
+      padding: 11px;
+    }
+    .footer-Container .container-fluid .row .col-6 p {
+      margin-left: 0px;
+      font-size: 11px;
+      font-weight: 300;
+      line-height: 15px;
+      text-align: justify;
+      width: 353px;
+    }
+    .footer-Container .disappear {
+      display: none;
+    }
+    .footer-Container h4{
+      font-size: 11px;
+      font-weight: bold;
+      line-height: 15px;
+      margin-left: -15px;
+    }
+    /*Modal Mobile*/
+
+    .modal-dialog {
+
+      /*height: 850px;*/
+      padding: 12px;
+      margin: 0 auto;
+    }
+    h1{
+      font-size: 34px;
+      font-weight: 300;
+      line-height: 41px;
+    }
+    .modal-textContainer{
+      margin-top: 15px;
+    }
+    .modal-bodyCotainer {
+      height: 100%;
+    }
+    .modal-content {
+      height: auto;
+      min-height: 100%;
+      border-radius: 0;
+      width: 353px;
+      margin: 0 auto;
+    }
+    #popOut-Container{
+      width: 100%;
+    }
+    #popOut-Container{
+      position: relative;
+      width: 353px;
+
+    }
+    .popOut-column{
+      width: 353px;
+      height:353px;
+    }
+    .popOut-Image {
+      height: 225.32px;
+      width: 225.32px;
+      margin: 0 auto;
+      margin-top: 62.59px;
+    }
+    .popOut-confetti {
+      height: 353px;
+      width: 352px;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      position: absolute;
+      top: -28%;
+      left: -1px;
+      transform: translate(0%, 0%);
+    }
+    .popOut-confetti-onChange{
+      width: 352px;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      position: absolute;
+      top: 22%;
+      left: 5%;
+      transform: translate(0%, 0%);
+    }
 
 
-/*End for mobile devices*/
+    .close {
+      position: absolute;
+      top: -353px;
+      right: 27px;
+    }
+    .modal-footerText {
+      width: 304px;
+    }
+    .modal-divider {
+      height: 2px;
+      width: 344px;
+    }
+    .modal-text {
+      width: 311px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /*GRIDS*/
+    #table-boxLastRow {
+      display: none;
+    }
+    .hero-Mobilebox {
+      height: 353px;
+      width: 100%;
+      border: 1px solid #CCCCCC;
+      margin-left: 0px;
+      margin-bottom: 0px;
+      margin-top: 10px;
+      display: block;
+    }
+    .hero-Mobilebox #SurpriseBox6-Container .day6-Font{
+      margin-top: 125.08px;
+      line-height: 84px;
+      font-size: 150px;
+      padding: 0px
+    }
+    .hero-Mobilebox #SurpriseBox6-Container  .img-snowflakes {
+      width: 340px;
+      height: 353px;
+      position: absolute;
+      top: -90%;
+      left: 54%;
+      transform: translate(-50%, 0%);
+    }
+
+    .day6-Font{
+      margin-top: 47px;
+      line-height: 84px;
+      font-size: 70px;
+      padding: 0px
+    }
+    .img-snowflakes {
+      width: 171px;
+      position: absolute;
+      top: -43px;
+      left: 11px;
+      transform: translate(0%, 0%);
+    }
+    .tarte-box{
+      height: 112.98px;
+      width: 112.98px;
+      margin-top: 31.01px;
+    }
+  }
+
+
+  /*End for mobile devices*/
