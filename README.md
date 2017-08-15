@@ -1,7 +1,7 @@
 ## Sephora - Advert Calendar
 ###### • Front end test from Invision prototype
 ###### • Build in Plain HTML, CSS, Javascript, JQuery and Bootstrap
-Here's the link to view the build protoype : [Sephora-Advert-Calendar]('https://arieltsq.github.io/ariel-sephora-advert/')
+Here's the link to view the build protoype : [Sephora-Advert-Calendar](https://arieltsq.github.io/ariel-sephora-advert/)
 #### File Structure
 ```
 +-- Assets
